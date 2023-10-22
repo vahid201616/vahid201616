@@ -27,7 +27,7 @@ netstat –nltp | grep ssh
 sanaee normal
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 
-sanaee custom
+sanaee custome
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh) v1.7.9
 
 SSL
@@ -35,3 +35,4 @@ apt-get install certbot -y
 certbot certonly --standalone --agree-tos --register-unsafely-without-email -d yourdomain.com
 certbot renew --dry-run
 --------------------------------------------------------------
+
